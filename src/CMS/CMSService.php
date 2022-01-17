@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace PoPSchema\SchemaCommonsWP\CMS;
+namespace PoPCMSSchema\SchemaCommonsWP\CMS;
 
-use PoPSchema\SchemaCommons\CMS\CMSServiceInterface;
+use PoPCMSSchema\SchemaCommons\CMS\CMSServiceInterface;
 
 use function get_option;
 use function get_site_url;

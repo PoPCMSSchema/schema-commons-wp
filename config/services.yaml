@@ -4,15 +4,15 @@ services:
         autowire: true
         autoconfigure: true
 
-    PoPSchema\SchemaCommons\CMS\CMSServiceInterface:
-        class: \PoPSchema\SchemaCommonsWP\CMS\CMSService
+    PoPCMSSchema\SchemaCommons\CMS\CMSServiceInterface:
+        class: \PoPCMSSchema\SchemaCommonsWP\CMS\CMSService
 
-    PoPSchema\SchemaCommons\Formatters\DateFormatterInterface:
-        class: \PoPSchema\SchemaCommonsWP\Formatters\DateFormatter
+    PoPCMSSchema\SchemaCommons\Formatters\DateFormatterInterface:
+        class: \PoPCMSSchema\SchemaCommonsWP\Formatters\DateFormatter
 
-    PoPSchema\SchemaCommons\Error\ErrorManagerInterface:
-        class: \PoPSchema\SchemaCommonsWP\Error\ErrorManager
+    PoPCMSSchema\SchemaCommons\Error\ErrorManagerInterface:
+        class: \PoPCMSSchema\SchemaCommonsWP\Error\ErrorManager
 
-    PoPSchema\SchemaCommonsWP\LooseContracts\:
+    PoPCMSSchema\SchemaCommonsWP\LooseContracts\:
         resource: '../src/LooseContracts/*'
 

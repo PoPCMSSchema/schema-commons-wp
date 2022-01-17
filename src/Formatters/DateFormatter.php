@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace PoPSchema\SchemaCommonsWP\Formatters;
+namespace PoPCMSSchema\SchemaCommonsWP\Formatters;
 
-use PoPSchema\SchemaCommons\Formatters\DateFormatterInterface;
+use PoPCMSSchema\SchemaCommons\Formatters\DateFormatterInterface;
 
 class DateFormatter implements DateFormatterInterface
 {
